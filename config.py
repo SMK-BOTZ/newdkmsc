@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "16575077"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "1c8c0bcb55c14e0fd8078058966b6a11")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7496441065:AAHXUEI4k-xkzQAWS6W1i2V8nCJwBqCuRJY")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://NewPomPom:NewPomPom@cluster0.dyu5iru.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002154883019"))
 
-OWNER_ID = int(getenv("OWNER_ID", "2107529793"))
+OWNER_ID = int(getenv("OWNER_ID", "1702061654"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "Spy_Melodic_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Miss_alya_robot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/stkeditz/SpyMusic",
+    "https://github.com/SMK-BOTZ/dkkmussic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "SPY")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hereis_admino")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hereis_admino")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dk_animes")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/dkanime_group")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
